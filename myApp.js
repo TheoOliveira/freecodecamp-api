@@ -9,7 +9,9 @@ var app = express();
 
 
 /** 1) Meet the node console. */
-
+app.get('/', (req,res)=>{
+    res.send('Response String');
+})
 
 /** 2) A first working Express Server */
 
