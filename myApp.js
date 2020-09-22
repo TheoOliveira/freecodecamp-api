@@ -11,7 +11,7 @@ var app = express();
 /** 1) Meet the node console. */
 app.get('/', function(req,res){
     res.send('Hello Express');
-    console.log('Hello Express')
+    console.log('Hello Express');
 })
 
 /** 2) A first working Express Server */
